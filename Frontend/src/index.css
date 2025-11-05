@@ -1,0 +1,165 @@
+ *,
+ *::before,
+  *::after {
+  	box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  label {
+    font-size: 20px;
+  }
+
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #fff;
+  padding: 32px 48px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+.container h1 {
+  margin-bottom: 24px;
+} 
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.container input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #5d5656;
+  font-size: 20px;
+}
+
+.container input::placeholder {
+  color: #b3b1b1;
+  font-style: italic;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: purple;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboard {
+  padding: 100px;
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+}
+
+/* Input text */
+.texty {
+  width: 100%;
+  padding: 10px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.texty-btn{
+  width: 200px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgb(89, 0, 255);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboard input::placeholder {
+  color: #b3b1b1;
+  font-style: italic;
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+.taskinput {
+  display: flex;
+  gap: 30px;
+  align-items: baseline;
+}
+
+.listy {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.listy-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checky {
+  width: 25px;
+  height: 25px;
+  background-color: aquamarine;
+}
+
+.checky-btn {
+  padding: 5px 10px;
+  width: 100px;
+  font-size: 16px;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.strikeThrough {
+  text-decoration: line-through;
+  color: gray;
+  font-style: italic;
+}
+
+.logout {
+  width: 100px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 900;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
